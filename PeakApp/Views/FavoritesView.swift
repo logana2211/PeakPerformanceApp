@@ -6,8 +6,8 @@
 //
 import SwiftUI
 
-struct NotesView: View {
+struct FavoritesView: View {
     var body: some View {
-        Text("Notes Page").foregroundColor(.white)
+        Text("Favorites Page").background(.AppColors.primaryGreen)
     }
 }
