@@ -21,10 +21,10 @@ struct MainTabView: View {
                     Text("Sleep")
                 }
 
-            NotesView()
+            FavoritesView()
                 .tabItem {
-                    Image(systemName: "book.closed.fill")
-                    Text("Notes")
+                    Image(systemName: "heart.fill")
+                    Text("Favorites")
                 }
 
             ProfileView()
@@ -34,6 +34,6 @@ struct MainTabView: View {
                 }
         }
         .accentColor(.white) // Optional: White icon highlight
-        .background(AppColors.background.edgesIgnoringSafeArea(.all))
+        .background(AppColors.PEAKbackground.edgesIgnoringSafeArea(.all))
     }
 }

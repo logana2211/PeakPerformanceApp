@@ -77,6 +77,6 @@ struct WorkoutSetupView: View {
             Spacer()
         }
         .padding()
-        .background(AppColors.background)
+        .background(AppColors.PEAKbackground)
     }
 }

@@ -1,13 +1,13 @@
 //
-//  NotesView.swift
+//  ProfileView.swift
 //  PeakApp
 //
 //  Created by Lance Alexander on 7/22/25.
 //
 import SwiftUI
 
-struct NotesView: View {
+struct ProfileView: View {
     var body: some View {
-        Text("Notes Page").foregroundColor(.white)
+        Text("Profile Page").foregroundColor(.white)
     }
 }
