@@ -21,7 +21,7 @@ extension Color {
 }
 
 struct AppColors {
-    static let background = Color(hex: "#0F1D1E")
+    static let PEAKbackground = Color(hex: "#0F1D1E")
     static let primaryGreen = Color(hex: "#00FF73")
     static let buttonFill = Color(hex: "#2F3F35")
     static let buttonfill2 = Color(hex: "FFFFFF")

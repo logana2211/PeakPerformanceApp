@@ -7,14 +7,19 @@
 import SwiftUI
 
 struct CalendarToolbar: View {
+    
+    @Environment(\.dismiss) var dismiss
     var body: some View {
         
         HStack {
-            // Options Icon (Left)
-            NavigationLink(destination: HomeView()) {
-                Image(systemName: "Chevron.left")
+            // Custom Back Button Icon (Left)
+            Button(action: {
+                dismiss()
+            }) {
+                Image(systemName: "chevron.left")
                     .font(.title2)
                     .foregroundColor(.green)
+                
             }
 
             Spacer()

@@ -7,10 +7,10 @@
 import SwiftUI
 
 @main
-struct PeakApp: App {
+struct PeakApp: App { 
     var body: some Scene {
         WindowGroup {
-            MainTabView() // 👈 This replaces HomeView()
+            MainTab() // 👈 This replaces HomeView()
         }
     }
 }

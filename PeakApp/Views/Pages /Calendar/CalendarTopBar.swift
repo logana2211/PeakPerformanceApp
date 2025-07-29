@@ -14,13 +14,13 @@ struct CalendarTopBar<Content: View>: View {
     }
     
     var body: some View {
-        NavigationView{
+
             VStack(spacing: 0) {
                 CalendarToolbar()
                 content
             }
             .background(AppColors.PEAKbackground.ignoresSafeArea())
+            .navigationBarBackButtonHidden(true)
         }
     }
-}
 
